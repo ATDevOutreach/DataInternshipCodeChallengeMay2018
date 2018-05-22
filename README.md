@@ -2,7 +2,7 @@
 ## Due: 23rd 9:00am May or Earlier
 
 
-##### There are six tasks in this challenge, <b>complete 1, 2 and 3 and write your answers in a ReadMe</b>. Then <b>choose between 4, 5, 6</b>. The submission instructions are specified at the bottom of the challenge page.
+##### There are six tasks in this challenge, complete 1, 2 and 3 and write your answers in a ReadMe. Then choose between 4, 5, 6 and complete one of those. The submission instructions are specified at the bottom of the challenge page.
 
 ## Task 1
 ###### If you copy paste a set of steps more than 3 times, it’s time to write a what?
