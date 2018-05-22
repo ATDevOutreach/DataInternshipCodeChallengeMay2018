@@ -1,6 +1,6 @@
 ### TASK 1
 
-- Recursive function
+Recursive function
 
 ### TASK 2:
 
