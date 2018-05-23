@@ -32,6 +32,18 @@
 
 ## Task 3
 ###### Give an example explaining how K-means clustering works.
+##### A: K-Means Clustering. Image classification example
+###### This is an example of K-Means clustering in land use classification of a satellite image
+###### Each pixel in a satellite image has a digital number between 0 and 255 (8-bit color). If from visual inspection the image appears to have 12 land use classes with examples of urban areas, forests, water and possibly many types of farmlands, an unsupervised classification would work to assign every pixel in the image to a land use class
+##### 1. Data assignment
+    start with K = 12
+###### On the first run, the clustering algorithm will slice up the value range of `0 - 255` into `12` centroids, and group each pixel around a centroid with value closest to it. This is the data assignment step based on squared euclidian distance
+##### 2. Update centroids
+###### The algorithm then averages the pixel values of all pixels in each cluster, and updates the centroids of teh cluster to be that average
+##### 3. Check a baseline
+###### A stopping condition is checked. If this baseline has not been met, step 1. of data assignment is done on the clusters and then step 2 followed by 3. Stopping conditions could be the number of iterations, as this algorithm is assured to produce results even with one pass.
+###### If the stopping condition is met, the algorithm returns the clusters generated. In this case, 12 land use classes.
+###### Manual labeling of the classes can then be done
 
 ## Task 4
 ###### Given a Gigabyte of weather data, how would you go about calculating the mean temperature of a particular place and plotting a graph to show change in variation of daily temperature.
