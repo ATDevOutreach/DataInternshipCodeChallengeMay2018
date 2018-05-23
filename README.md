@@ -5,20 +5,29 @@
 ##### There are six tasks in this challenge, complete 1, 2 and 3 and write your answers in a ReadMe. Then choose between 4, 5, 6 and complete one of those. The submission instructions are specified at the bottom of the challenge page.
 
 ## Task 1
-###### If you copy paste a set of steps more than 3 times, it’s time to write a what?
+###### If you copy paste a set of steps more than 3 times, it’s time to write a what? It is time to write a method that should be invoked (called) through another statement
 
 
 ## Task 2
-###### Given a dataset on any one of Africa’s Talking products: Voice, SMS, Payments and USSD. Discuss the steps you would take to analyse the data to reach a conclusion.
+###### Given a dataset on any one of Africa’s Talking products: Voice, SMS, Payments and USSD. Discuss the steps you would take to analyse the data to reach a conclusion. Using a dataset from payments for example,
+Analyze of the different products such as Mobile Customer To Business (C2B), Mobile Business to Customer (B2C) or Mobile Business to Business (B2B) against their price, number of customers over a certain period of time, number of customers over a certain period of time, the regions/ locations where these products are used and the type of businesses using these products. 
+Using software such as Excel, Tableau, or Visio, among others, these datasets can be visualized using graphs, tables, histograms or charts.
+From these visualizations, I can draw conclusions on trends, profit or loss, my type and number of customers and businesses and even have predictions of the performance of the business in the future.
+
 
 ## Task 3
-###### Give an example explaining how K-means clustering works.
+###### Give an example explaining how K-means clustering works. This example uses the data collected in a country about its working population. The data can be used to visualize important relationships between employee’s position, number of years at a company, an employee’s salary, the area of specialization and the age of the employee. 
+Given that we need to study relationship between the number of years the employee has stayed at a company and the employee’s salary, we would use the K-means clustering because this is a good example of unlabeled numerical data and the data will be classified into 2 clusters since k=2.
+
 
 ## Task 4
 ###### Given a Gigabyte of weather data, how would you go about calculating the mean temperature of a particular place and plotting a graph to show change in variation of daily temperature.
 
 ## Task 5
-###### Suppose there’s a contest in which people each pick a number between 0 to 100. The winner of this contest will be the person who picks the number closest to ⅕ of the average. What’s the winning number.
+###### Suppose there’s a contest in which people each pick a number between 0 to 100. The winner of this contest will be the person who picks the number closest to ⅕ of the average. What’s the winning number. Average =  (∑_(i=0)^101▒〖5050) / 101〗 = 50 Therefore 1/5*50= 10. The winning number is 10
+##
+
+
 
 ## Task 6
 ###### Uber recently released data that you can find on uber movement website. Download and analyse interesting data that you find. State the insights that you got from analysing the data. Please send us your work as notebook format you prefer.
