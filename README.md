@@ -51,6 +51,16 @@
 ## Task 5
 ###### Suppose there’s a contest in which people each pick a number between 0 to 100. The winner of this contest will be the person who picks the number closest to ⅕ of the average. What’s the winning number.
 
+##### A: Number Lottery
+> People : 0 to 100, assume maximum: n = 101 people
+>
+> 1/5 * average => 0.2 * [ (n/2) * (n+1) ] / n
+>
+> 0.2 * [ (101 / 2 ) * 102] / 101 = 10.2
+>
+####> Winning number is 10
+
+
 ## Task 6
 ###### Uber recently released data that you can find on uber movement website. Download and analyse interesting data that you find. State the insights that you got from analysing the data. Please send us your work as notebook format you prefer.
 
