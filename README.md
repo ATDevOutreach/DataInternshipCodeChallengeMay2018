@@ -11,6 +11,24 @@
 
 ## Task 2
 ###### Given a dataset on any one of Africa’s Talking products: Voice, SMS, Payments and USSD. Discuss the steps you would take to analyse the data to reach a conclusion.
+##### A: Data Analysis steps:
+###### 1. Fomulate a question
+    Step one would be to ask why I want to do this data analysis. Is there a specific question for the analyis? Is it a business problem we are trying to solve therefore hoping that data analysis would reveal more insight, or is it a general hunt patterns and trends in the dataset.
+    Example analysis question: AT has high SMS traffic at certain periods of the month, especially end of month. Determine and confirm correlation of sms traffic and the monthly calendar.
+###### 2. Explore the data
+    Step two is extensively check the data noting aspects of the data like its format and quality (supposing I have an indicator like the minimum data that would fully form a single data point).
+    In the example case above, Id check the frequency of the data. Was it recorded daily as a count of SMSes sent and received in a day, or is the data a huge store of each individual text sent. Are there timestamps in the data, are all data points timestamped. The data given, does it cover our interest period of study, say, the last six months... is the data streaming realtime from an API endpoint
+###### 3. Pre-process the data
+    I would then preprocess the data, converting any formats that I need to and maybe filtering out data points that I have clearly determined to be outliers.
+    In the cexample case, assuming the data is a SMSes transacted in a day, and the dataset is a snapshot of the last one year. If I am to perform an analysis for the last six months only, I would filter the data extracting just the last six months.
+###### 4. Perform analysis and build models
+    Next, I would perform an analysis, based on the preprocessed data and the question of analysis. In a machine learning case, I would formulate models and improve upon them based on the results, iteratively. A model framed with the analysis question, would form my criteria for success.
+    In my analysis case, I may plot the data points for every subsequent months.
+    This can be done using weekly averages against the weeks of the month for all the seix months, or for every single day for all the six months.
+###### 5. Assess the results
+    I would then review results from the analysis, discuss them and test them against my hypothesis.
+    Humps and dips in SMS counts peaking at the end of a given month and diping off with the transition into a new month would confrm the end-month hypothesis. The results, could otherwise show various other patterns and correlations between SMS traffic and the time of the month. These assesments, would form the basis of my conclusion.
+    In this case, the existence of such a pattern would be half the data analysis, not answering the question of why it actually occurs.
 
 ## Task 3
 ###### Give an example explaining how K-means clustering works.
