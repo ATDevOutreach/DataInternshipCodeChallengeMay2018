@@ -6,6 +6,7 @@
 
 ## Task 1
 ###### If you copy paste a set of steps more than 3 times, it’s time to write a what?
+##### A: Function - to bundle the set of steps
 
 
 ## Task 2
