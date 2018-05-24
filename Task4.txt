@@ -1,0 +1,30 @@
+#Ann Mudanye
+#Africa's Talking Coding Challenge 
+
+Task 4 - Given a Gigabyte of weather data, we start off by loading the lubridate, dplyr packages and the .csv file into R.
+
+weather dataset <- read.csv(
+  file="weather dataset name.csv",
+  stringsAsFactors = FALSE    #strings in a data frame should be treated as plain strings
+  )
+
+To find the mean temperature of a particula place, we use the group_by function to calculate summary statistics by a particular place.We can use the tally() function to calculate how many measurements were made in that area. The summarize function can then calculate the mean temperature value for the particular place that we chose.
+
+Plotting a graph to show change in variation of daily temperature would require a time series plot that can be done with the ggplot2 package in R. 
+Supposing we want to show the variation per hour of the day. We start off by converting a date-time column to a POSIXct class after the .csv is loaded.
+
+> myPOSIXct = as.POSIXct(0, origin="2018-5-24", tz="UTC") 
+> myPOSIXct
+[1] "2018-5-24 10:17:07 UTC"
+> format(myPOSIXct,  format="%H")  #extract the hour from the date-time column
+[1] 10 
+
+The hours can be stored under a variable called time. 
+
+The function below is what we would use :  
+ggplot(aes(x = time, y = variable), data = data) + geom_line()
+
+where x is time in hours of the day 
+y is the variable of the temperature calculated per hour 
+data is the given weather dataset
+geom_line() plots the points in a line graph format. Lines are helpful in presenting continuous data in an interval scale, where intervals are equal in size(per hour).
